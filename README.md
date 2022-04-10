@@ -8,7 +8,7 @@ In Medicine consistency is key: a little and often. There will be no grinding. T
 
 But what kind of consistency? The "I-have-a-test-coming-up-in-11-days,-and-I-have-25-pages-of-work-to-complete.-As-a-result,-I'll-need-to-work-on-roughly-2.5-pages-every-day" kind.
 
-I've written a Python programme to handle this for me. I used to do the aforementioned calculations with a basic calculator in high school. However, as I grew older, more deadlines began to materialise out of nowhere. Calculating how many days are left and how many steps I need to take each day to meet each of these deadlines is too time consuming.
+I've written a Python program to handle this for me. I used to do the aforementioned calculations with a basic calculator in high school. However, as I grew older, more deadlines began to materialise out of nowhere. Calculating how many days are left and how many steps I need to take each day to meet each of these deadlines is too time consuming.
 
 I've been using it for a year and have to say that it's a fantastic productivity tool.
 
