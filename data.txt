@@ -1,0 +1,18 @@
+{
+ "name": [],
+ "goal_steps": [],
+ "steps_done": [],
+ "percentage_done": [],
+ "steps_left": [],
+ "current_hourly_rate": [],
+ "fixed_target_hourly_rate": [],
+ "current_daily_rate": [],
+ "fixed_target_daily_rate": [],
+ "dynamic_target_daily_rate": [],
+ "predict_s": [],
+ "sPRED_vs_gs": [],
+ "date_added": [],
+ "days_gone": [],
+ "deadline": [],
+ "days_left": []
+}
