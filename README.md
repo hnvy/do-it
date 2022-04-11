@@ -1,5 +1,5 @@
 # do-it
-A Python program that helps you stay on track of your tasks.
+A Python program that helps you stay on track with your tasks.
 
 # What is it?
 Medicine has many diseases to study, and there is too little time. What is the solution? Consistency.
