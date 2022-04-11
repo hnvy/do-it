@@ -10,7 +10,11 @@ But what kind of consistency? The "I-have-a-test-coming-up-in-11-days,-and-I-hav
 
 I've written a Python program to handle this for me. I used to do the aforementioned calculations with a basic calculator in high school. However, as I grew older, more deadlines began to materialise out of nowhere. Calculating how many days are left and how many steps I need to take each day to meet each of these deadlines is too time consuming.
 
-I've been using it for a year and have to say that it's a fantastic productivity tool.
+I've been using it for a year and have to say that it's a fantastic productivity tool:
+
+<p align="center" width="100%">
+    <img width="80%" src="https://lh3.googleusercontent.com/792XlUrlGznTWvNvG-uBKvrt2s-p84egTyaUFfxFEV87n5JMOG8ZhOgTlqb1VDQiFtYL3K1h2x69rw=w1920-h913-rw">
+</p>
 
 # How does it work?
 Very simple.
