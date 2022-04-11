@@ -1,13 +1,17 @@
+# * Start
+
 import time
 import datetime
 import json
 import os
 import sys
 
+# * Initialises the preset data
+
 today = datetime.date.today() # This sets the date for today
 
 with open(os.path.join(sys.path[0], "data.txt"), 'r') as json_file: # Opens up data.txt as json_file in read mode
-    tasks_obj = json.load(json_file) # This takes the json_file and loads up as a JSON object
+    tasks_obj = json.load(json_file) # Loads the JSON file and assigns it to the variable tasks_obj
     name = tasks_obj["name"]
     goal_steps = tasks_obj["goal_steps"]
     steps_done = tasks_obj["steps_done"]
@@ -22,6 +26,8 @@ with open(os.path.join(sys.path[0], "data.txt"), 'r') as json_file: # Opens up d
     days_gone = tasks_obj["days_gone"]
     deadline = tasks_obj["deadline"]
     days_left = tasks_obj["days_left"]
+
+# * The main program
 
 def repeater(): # This is a function for keeping the program in a repeating loop
     view_and_update() # This is the first thing that runs which the program is launched. This is so that it gives the most up-to-date stats
@@ -47,7 +53,7 @@ def repeater(): # This is a function for keeping the program in a repeating loop
         date_added,
         days_gone,
         deadline,
-        days_left]
+        days_left] # This is a list of all the lists that are found in the JSON file. We use it to prevent repetition.
         
         task_number = int(input("Enter the INDEX of the task which you want to delete: ")) # The index is displayed before each task name.
         for list in list_of_stats: # This loops around each of the items listed in list_of_stats, and deletes them
@@ -56,10 +62,10 @@ def repeater(): # This is a function for keeping the program in a repeating loop
 
 def adding(): # This function is for adding a new task to the program
     task_name_input = input("Enter the task name: ")
-    goal_steps_input = int(input("Enter the number of goal number of steps: "))
-    deadline_raw_input = input("Enter the deadline using the YYYY-MM-DD format: ")
+    goal_steps_input = int(input("Enter the number of goal number of steps: ")) # Goal number of steps
+    deadline_raw_input = input("Enter the deadline using the YYYY-MM-DD format: ") # Raw date (i.e., it is not formatted)
     deadline_format_input = datetime.datetime.strptime(deadline_raw_input, "%Y-%m-%d").date() # This formats the deadline_raw_input into a date which Python can use to work with
-    days_left_input = int((deadline_format_input - today).days) # This calculates the number of days left until the deadline. It works by subtracting the deadline from today's date
+    days_left_input = int((deadline_format_input - today).days) # This calculates the number of days left until the deadline. It works by subtracting the deadline from today's date. It turns this value into an integer.
     dynamic_target_daily_rate_input = int(goal_steps_input/days_left_input) # This calculates the ideal rate which you should be working at in order to achieve your goal_steps by the deadline you've set.
     
     with open(os.path.join(sys.path[0], "data.txt"), 'w') as json_file: # This opens up data.txt in writing mode so that it can add the data which the user has entered
