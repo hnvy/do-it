@@ -121,4 +121,4 @@ def view_and_update(): # This function refreshes the columns
                      days_left|{days_left[i]}
 ####################################################################""")
 
-repeater() # My primitive method of looping the programme :)
+repeater() # My primitive method of looping the program :)
