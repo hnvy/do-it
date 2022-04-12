@@ -13,7 +13,7 @@ I've written a Python program to handle this for me. I used to do the aforementi
 I've been using it for a year and have to say that it's a fantastic productivity tool:
 
 <p align="center" width="100%">
-    <img width="80%" src="https://lh3.googleusercontent.com/792XlUrlGznTWvNvG-uBKvrt2s-p84egTyaUFfxFEV87n5JMOG8ZhOgTlqb1VDQiFtYL3K1h2x69rw=w1920-h913-rw">
+    <img width="80%" src="https://lh3.googleusercontent.com/pw/AM-JKLXqW-8s1SJ3jCSU9FpaNBSpQU_g4HIQfggdCpgVq--Xs3wxE0Q3kIIfC0I3dJ_ZznSolkOOxVpZiMYP2kLMV_YMow3exe-TDCXueljbCBbJPlRxNTGZebnHlR2stfAO-UtU5sdYE872qNcrAJ9E3w=w964-h914-no">
 </p>
 
 # How does it work?
